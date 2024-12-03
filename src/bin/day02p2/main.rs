@@ -72,7 +72,7 @@ fn main() {
 mod tests {
     use std::time::Instant;
     use aoc_24::load_puzzle_input::{load_puzzle_input};
-    use crate::{check_levels, check_safety, solve};
+    use crate::{check_levels, solve};
 
     #[test]
     fn test_run() {
